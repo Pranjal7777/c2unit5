@@ -1,0 +1,37 @@
+{
+  "houses": [
+    {
+      "name": "pranjal",
+      "ownerName": "k",
+      "address": "mahatma",
+      "areaCode": "442041",
+      "rent": "2000",
+      "bachelor": "on",
+      "married": "on",
+      "image": "sdasd",
+      "id": 1
+    },
+    {
+      "name": "dsd",
+      "ownerName": "sd",
+      "address": "sd",
+      "areaCode": "sd",
+      "rent": "sd",
+      "bachelor": "on",
+      "married": "on",
+      "image": "sd",
+      "id": 2
+    },
+    {
+      "name": "asA",
+      "ownerName": "asAS",
+      "address": "as",
+      "areaCode": "AS",
+      "rent": "as",
+      "bachelor": "on",
+      "married": "on",
+      "image": "AS",
+      "id": 3
+    }
+  ]
+}
