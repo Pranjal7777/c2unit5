@@ -32,6 +32,28 @@
       "married": "on",
       "image": "AS",
       "id": 3
+    },
+    {
+      "name": "Karan",
+      "ownerName": "Karan",
+      "address": "Indrore",
+      "areaCode": "42394",
+      "rent": "3434",
+      "bachelor": "on",
+      "married": "on",
+      "image": "sad",
+      "id": 4
+    },
+    {
+      "name": "saSas",
+      "ownerName": "aSA",
+      "address": "SADAS",
+      "areaCode": "AD",
+      "rent": "ASDAS",
+      "bachelor": "on",
+      "married": "on",
+      "image": "ASD",
+      "id": 5
     }
   ]
 }

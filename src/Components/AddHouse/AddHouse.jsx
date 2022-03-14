@@ -1,7 +1,7 @@
 import { useState, userEffect, useEffect } from "react";
 import axios from "axios"
 
-export const AddHouse = ({ x }) => {
+export const AddHouse = (props) => {
 
   const [formData, setFormData] = useState({
 
@@ -17,22 +17,9 @@ export const AddHouse = ({ x }) => {
 
   })
 
-
-  const [getFormData, setgFormData] = useState([])
-
-  const getData = () => {
-    axios.get("http://localhost:8080/houses").then((res) => {
-      setgFormData(res.data)
-
-    })
-  }
-
-  useEffect(() => {
-    getData()
-  }, [])
-
-  // { getHouse(() => getFormData) }
-
+  // useEffect(() => {
+  //   props.getData()
+  // }, [])
 
   const handleChange = (e) => {
 
@@ -46,14 +33,14 @@ export const AddHouse = ({ x }) => {
 
   console.log(formData)
 
-  { x = formData }
+
 
   const handleSubmit = (e) => {
     e.preventDefault()
 
     axios.post("http://localhost:8080/houses", formData).then(() => {
       alert("Done")
-      getData()
+      props.getData()
       setFormData({
 
         name: "",

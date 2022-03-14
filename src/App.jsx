@@ -5,6 +5,7 @@ import { useState } from "react";
 
 
 
+
 function App() {
 
   const [house, setHouse] = useState([])
@@ -26,7 +27,7 @@ function App() {
       </button>
       {/* Show component based on state */}
       <AddHouse x={x} />
-
+      <Rentals />
       <br />
     </div>
   );
