@@ -54,6 +54,17 @@
       "married": "on",
       "image": "ASD",
       "id": 5
+    },
+    {
+      "name": "asd",
+      "ownerName": "asd",
+      "address": "asd",
+      "areaCode": "asdasd",
+      "rent": "asda",
+      "bachelor": "",
+      "married": "on",
+      "image": "sd",
+      "id": 6
     }
   ]
 }
